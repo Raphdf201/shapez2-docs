@@ -4,6 +4,6 @@ hidden: false
 ---
 This site contains docs that i made to explain some aspects of modding specifically such as
 
-* Buidi
+* [Building connectors]()
 * Static rendering (and meshes with blender)
 * Custom side upgrades
