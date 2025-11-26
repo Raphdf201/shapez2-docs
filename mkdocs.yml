@@ -8,8 +8,9 @@ nav:
       - Side upgrades: sideUpgrades.md
       - Toolbar locator: toolbar.md
   - Assemblies:
-      - Game.Content: dll/gamecontent.md
-      - Game.Content.Features: dll/gamecontentfeatures.md
+    - Core.Localization: dll/corelocalization.md
+    - Game.Content: dll/gamecontent.md
+    - Game.Orchestration: dll/gameorchestration.md
   - Official: official.md
   - Mod ideas: modIdeas.md
   - About: about.md
