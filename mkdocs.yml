@@ -2,13 +2,14 @@ site_name: Raphdf201 | Shapez 2 docs
 nav:
   - Home: index.md
   - Specifics:
-    - Connector data: connectorData.md
-    - Rendering: rendering.md
-    - Simulation: simulation.md
-    - Side upgrades: sideUpgrades.md
-    - Toolbar locator: toolbar.md
+      - Connector data: connectorData.md
+      - Rendering: rendering.md
+      - Simulation: simulation.md
+      - Side upgrades: sideUpgrades.md
+      - Toolbar locator: toolbar.md
   - Assemblies:
-    - Game.Content: dll/gamecontent.md
-    - Game.Content.Features: dll/gamecontentfeatures.md
+      - Game.Content: dll/gamecontent.md
+      - Game.Content.Features: dll/gamecontentfeatures.md
   - Official: official.md
+  - Mod ideas: modIdeas.md
   - About: about.md
