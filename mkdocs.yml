@@ -8,6 +8,7 @@ nav:
       - Side upgrades: sideUpgrades.md
       - Toolbar locator: toolbar.md
       - Save data: saveData.md
+      - Console commands: consoleCommands.md
   - Assemblies:
     - Core.Localization: dll/corelocalization.md
     - Game.Content: dll/gamecontent.md
