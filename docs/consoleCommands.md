@@ -63,7 +63,7 @@ this.RegisterConsoleCommand("echo", context =>// the command ingame will be modn
     }, arg1: new DebugConsole.StringOption("message"));
 ```
 
-### Example: Command with Multiple Arguments (WIP)
+### Example: Command with Multiple Arguments
 
 ```csharp
 this.RegisterConsoleCommand("add", context =>
@@ -83,7 +83,7 @@ this.RegisterConsoleCommand("add", context =>
 
 ## Best Practices
 
-### Error Handling (WIP)
+### Error Handling
 
 Always validate input and provide helpful error messages:
 
