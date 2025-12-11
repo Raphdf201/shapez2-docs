@@ -6,7 +6,13 @@ The Console Commands Flow API provides a simple, fluent interface for registerin
 
 ## Quick Start
 
-### Using Extension Methods
+A command can be registered using the RegisterConsoleCommand method. It has the following signature.
+
+```csharp
+public static RewirerHandle RegisterConsoleCommand(this IMod mod, string commandName,
+            Action<DebugConsole.CommandContext> handler, bool isCheat = false, DebugConsole.ConsoleOption? arg1 = null,
+            DebugConsole.ConsoleOption? arg2 = null)
+```
 
 ```csharp
 using ShapezShifter.Flow;
@@ -16,14 +22,16 @@ public class Main : IMod
 {
     public Main()
     {
-        this.RegisterConsoleCommand("mymod.hello", context =>
+        //...
+        this.RegisterConsoleCommand("hello", context =>
         {
             context.Output("Hello World!");
         });
-        this.RegisterCheatCommand("mymod.cheat", context =>
+        this.RegisterConsoleCommand("cheat", context =>
         {
             context.Output("Stop cheating !");
-        });
+        }, true);// true means cheat here
+        //...
     }
 }
 ```
@@ -35,26 +43,30 @@ The `DebugConsole.CommandContext` provides:
 - `context.Options` - Array of arguments passed to the command
 - `context.Output(string)` - Output text to the console
 
-### Example: Echo Command (WIP)
+A `DebugConsole.ConsoleOption` can be a string, bool, int, float or long.
+To get the value of an argument, you can use `context.get...(n)` where ... is the option type and n is the argument position.
+You can also use the Get<>(n) method to cast the argument to any type.
+
+### Example: Echo Command
 
 ```csharp
-this.RegisterConsoleCommand("mymod.echo", context =>
-{
-    if (context.Options.Length == 0)
+this.RegisterConsoleCommand("echo", context =>// the command ingame will be modname.echo
     {
-        context.Output("Usage: mymod.echo <message>");
-        return;
-    }
-
-    string message = string.Join(" ", context.Options);
-    context.Output($"Echo: {message}");
-});
+        if (context.Options.Length == 1)// there is one argument
+        {
+            context.Output($"Echo: {context.GetString(0)}");// 0 is the first argument
+        }
+        else
+        {
+            context.Output("Usage: mymod.echo <message>");
+        }
+    }, arg1: new DebugConsole.StringOption("message"));
 ```
 
 ### Example: Command with Multiple Arguments (WIP)
 
 ```csharp
-this.RegisterConsoleCommand("mymod.add", context =>
+this.RegisterConsoleCommand("add", context =>
 {
     if (context.Options.Length != 2)
     {
@@ -62,25 +74,14 @@ this.RegisterConsoleCommand("mymod.add", context =>
         return;
     }
 
-    if (!int.TryParse(context.Options[0], out int num1) || 
-        !int.TryParse(context.Options[1], out int num2))
-    {
-        context.Output("Error: Invalid numbers");
-        return;
-    }
-
+    int num1 = context.getInt(0);
+    int num2 = context.getInt(1);
     int result = num1 + num2;
     context.Output($"{num1} + {num2} = {result}");
 });
 ```
 
 ## Best Practices
-
-### Command Naming
-
-- Use a namespace prefix: `mymod.commandname`
-- Use lowercase and dot notation
-- Be descriptive: `mymod.spawn.enemy` vs `mymod.se`
 
 ### Error Handling (WIP)
 
@@ -117,7 +118,7 @@ private RewirerHandle _handle;
 
 public Main()
 {
-    _handle = this.RegisterConsoleCommand("mymod.cmd", context =>
+    _handle = this.RegisterConsoleCommand("tempCommand", context =>
     {
         context.Output("temp command");
     });
@@ -137,7 +138,7 @@ If you don't need to remove a command, you can skip storing the handle:
 public Main()
 {
     // Fire-and-forget registration
-    this.RegisterConsoleCommand("mymod.version", context =>
+    this.RegisterConsoleCommand("version", context =>
     {
         context.Output("MyMod v1.0.0");
     });
