@@ -14,6 +14,8 @@ nav:
     - Core.Localization: dll/corelocalization.md
     - Game.Content: dll/gamecontent.md
     - Game.Orchestration: dll/gameorchestration.md
+  - Tutorial:
+    - Step 1 - setup: tutorial/step1-setup.md
   - Official: official.md
   - Mod ideas: modIdeas.md
   - Reference mods: referenceMods.md
