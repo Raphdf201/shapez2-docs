@@ -9,6 +9,7 @@ nav:
       - Toolbar locator: toolbar.md
       - Save data: saveData.md
       - Console commands: consoleCommands.md
+      - Periodic running: periodic.md
   - Assemblies:
     - Core.Localization: dll/corelocalization.md
     - Game.Content: dll/gamecontent.md
