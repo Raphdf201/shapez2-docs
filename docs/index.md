@@ -2,4 +2,4 @@
 
 Hello
 
-Step 1 : [setup](./tutorial/step1.md)
+Step 1 : [setup](./tutorial/step1-setup.md)
