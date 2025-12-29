@@ -2,7 +2,6 @@ site_name: Raphdf201 | Shapez 2 docs
 nav:
   - Home: index.md
   - Specifics:
-      - Connector data: connectorData.md
       - Rendering: rendering.md
       - Simulation: simulation.md
       - Side upgrades: sideUpgrades.md
@@ -11,12 +10,12 @@ nav:
       - Console commands: consoleCommands.md
       - Periodic running: periodic.md
   - Assemblies:
-    - Core.Localization: dll/corelocalization.md
-    - Game.Content: dll/gamecontent.md
-    - Game.Orchestration: dll/gameorchestration.md
+      - Core.Localization: dll/corelocalization.md
+      - Game.Content: dll/gamecontent.md
+      - Game.Orchestration: dll/gameorchestration.md
   - Tutorial:
-    - Step 1 - setup: tutorial/step1-setup.md
+      - Step 1 - Setup: tutorial/step1-setup.md
+      - Step 2 - Buildings: tutorial/step2-buildings.md
   - Official: official.md
   - Mod ideas: modIdeas.md
   - Reference mods: referenceMods.md
-  - About: about.md

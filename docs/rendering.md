@@ -4,6 +4,8 @@
 
 ![Texture atlas](img/textureatlas.png)
 
+<a href="/img/textureatlas.png" download="textureatlas.png">Download</a>
+
 Here is the meaning of the texture atlas
 
 - Accent
@@ -15,8 +17,6 @@ Here is the meaning of the texture atlas
 - Belt Rubber
 - Greeble
 
-[simple uv editing tutorial](https://youtu.be/JP3orYaq_Co)
-
 Useful uv editing keybinds
 
 - move : g
@@ -24,8 +24,6 @@ Useful uv editing keybinds
 - scale : s
 - rip and move : v
 
-simple tutorial : 
+simple tutorial :
 
-<div class="tutorialEmbed">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7QJWF78OcjE?si=IYbKxEhB8b7hpQZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7QJWF78OcjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

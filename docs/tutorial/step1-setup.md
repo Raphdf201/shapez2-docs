@@ -1,16 +1,10 @@
-# Setup modding environment
+# Setup
+
+# 1.1 : Modding environment
 
 First, setup the shapez shifter API ([official instructions](https://tobspr-games.notion.site/shapez2-modding-documentation#2583c9e752e080728e40eae35a163fce)).
-Most of the features documented on this site use my own fork of the shapez shifter API. To use it, simply
-[clone](https://github.com/Raphdf201/shapez2-shifter) it, build it, and then set the SPZ2_SHIFTER variable to
-`%SPZ2_PERSISTENT%\mods\ShapezShifter\ShapezShifter.dll` on windows, or `$SPZ2_PERSISTENT/mods/ShapezShifter/ShapezShifter.dll`.
-If you use my fork, make sure to unsubscribe from the official one on steam workshop or it may cause problems.
-Then, in your mod's manifest, add a shapez shifter dependency
+Make sure that the `SPZ2_SHIFTER` environment variable is set properly by doing `echo %SPZ2_SHIFTER%` on windows, or `echo $SPZ2_SHIFTER` on linux/mac.
 
-```json
-{
-    "ModId": "local:ShapezShifter",
-    "ModTitle": "Shapez Shifter",
-    "Version": "0.9.1"
-}
-```
+# 1.2 : Project
+
+I made a simple [project generator](https://www.raphdf201.net/shapez2-generator/) to get started easily. It is very ugly but it works (if you did a better version, feel free to make a pr on the [docs repo](https://github.com/Raphdf201/shapez2-docs))
