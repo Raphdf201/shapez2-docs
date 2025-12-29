@@ -110,7 +110,7 @@ public static BuildingDrawData CreateDrawData()
 }
 ```
 
-For more advanced things, check out the [rendering page](rendering.md).
+For more advanced things, check out the [rendering page](../rendering.md).
 
 ## 2.5 : The simulation renderer
 
