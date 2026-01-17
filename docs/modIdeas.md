@@ -7,3 +7,4 @@
 - [More than 3 layers](https://shapez-2.nolt.io/374)
 - [Reverse pipe/belt direction](https://shapez-2.nolt.io/1112)
 - [Belt speedometer](https://discord.com/channels/1000343719314198548/1219552445798023250/1336574793503215626)
+- [Flat simulated stackers/unstackers](https://discord.com/channels/1000343719314198548/1461400611127034114) 
