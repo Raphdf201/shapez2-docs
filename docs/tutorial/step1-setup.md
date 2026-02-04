@@ -7,4 +7,4 @@ Make sure that the `SPZ2_SHIFTER` environment variable is set properly by doing 
 
 # 1.2 : Project
 
-I made a simple [project generator](https://www.raphdf201.net/shapez2-generator/) to get started easily. It is very ugly but it works (if you did a better version, feel free to make a pr on the [docs repo](https://github.com/Raphdf201/shapez2-docs))
+I made a simple [project generator](https://generator.shapez2.raphdf201.net/) to get started easily.
