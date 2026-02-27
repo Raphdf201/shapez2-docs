@@ -4,7 +4,7 @@
 
 ![Texture atlas](img/textureatlas.png)
 
-<a href="/img/textureatlas.png" download="textureatlas.png">Download</a>
+<a href="/img/MaterialLUT.psd" download="MaterialLUT.psd">Download</a>
 
 Here is the meaning of the texture atlas
 
