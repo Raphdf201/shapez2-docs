@@ -9,3 +9,4 @@
 - [Belt speedometer](https://discord.com/channels/1000343719314198548/1219552445798023250/1336574793503215626)
 - [Flat simulated stackers/unstackers](https://discord.com/channels/1000343719314198548/1461400611127034114)
 - [Suppress individual warnings](https://discord.com/channels/1000343719314198548/1000343719813324842/1485322679400661198)
+- Train control via wires 
