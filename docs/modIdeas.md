@@ -10,3 +10,4 @@
 - [Flat simulated stackers/unstackers](https://discord.com/channels/1000343719314198548/1461400611127034114)
 - [Suppress individual warnings](https://discord.com/channels/1000343719314198548/1000343719813324842/1485322679400661198)
 - Train control via wires 
+- Line stop (train stop that only stops one color of locomotive)

@@ -1,4 +1,4 @@
-## Official
+## Official links
 
 - [Modding docs](https://tobspr-games.notion.site/shapez2-modding-documentation)
 - [Game wiki](https://shapez2.wiki.gg/)
@@ -7,7 +7,7 @@
 - [Steam page](https://store.steampowered.com/app/2162800/shapez_2/)
 - [Discord](https://discord.com/invite/bvq5uGxW8G)
 
-# Community
+##  Community links
 
 - [3D Shape and Blueprint Viewer](https://community-vortex.shapez2.com/)
 - [Signal producer blueprint generator](https://gamertools.github.io/ShapezTools/bpe.html)
