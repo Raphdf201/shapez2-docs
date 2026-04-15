@@ -1,6 +1,7 @@
 ## Official links
 
 - [Modding docs](https://tobspr-games.notion.site/shapez2-modding-documentation)
+- [Art docs](https://tobspr-games.notion.site/shapez2-modding-art-guidelines)
 - [Game wiki](https://shapez2.wiki.gg/)
 - [Patreon](https://www.patreon.com/tobsprgames)
 - [Suggestions](https://shapez-2.nolt.io/)

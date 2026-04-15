@@ -2,7 +2,6 @@ site_name: Raphdf201 | Shapez 2 docs
 nav:
   - Home: index.md
   - Specifics:
-      - Rendering: rendering.md
       - Simulation: simulation.md
       - Side upgrades: sideUpgrades.md
       - Toolbar locator: toolbar.md
