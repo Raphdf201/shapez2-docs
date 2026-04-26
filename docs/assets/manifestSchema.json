@@ -3,6 +3,9 @@
   "title": "SerializableModManifest",
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "Description": {
       "type": "string"
     },
