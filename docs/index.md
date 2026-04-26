@@ -1,5 +1,9 @@
 # Shapez 2 modding docs
 
+## Getting started
+
+You can use this template to generate a mod project : https://github.com/Raphdf201/shapez2-template
+
 ## Tutorial
 
 This is a basic tutorial on how to make a mod in shapez 2.
@@ -10,7 +14,7 @@ This is a basic tutorial on how to make a mod in shapez 2.
 ## Contributing
 
 - Docs :  [https://github.com/Raphdf201/shapez2-docs](https://github.com/Raphdf201/shapez2-docs)
-- Project generator/mods api : [https://github.com/Raphdf201/shapez2-generator](https://github.com/Raphdf201/shapez2-generator)
+- mods api : [https://github.com/Raphdf201/shapez2-generator](https://github.com/Raphdf201/shapez2-generator)
 
 ## API docs
 

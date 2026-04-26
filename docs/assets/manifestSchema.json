@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SerializableModManifest",
+  "type": "object",
+  "properties": {
+    "Description": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Version": {
+      "type": "string"
+    },
+    "SavedModVersionCompabilityRangeWithSelf": {
+      "type": "string"
+    },
+    "GameVersionSupportRange": {
+      "type": "string"
+    },
+    "AffectsSaveGames": {
+      "type": "boolean"
+    },
+    "Dependencies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/SerializableVersionedModReference"
+      }
+    },
+    "Assemblies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Conflicts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/SerializableVersionedModReference"
+      }
+    },
+    "DisablesAchievements": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "SerializableVersionedModReference": {
+      "type": "object",
+      "required": ["ModId"],
+      "properties": {
+        "ModId": {
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        },
+        "ModTitle": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
